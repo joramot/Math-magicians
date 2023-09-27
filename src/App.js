@@ -1,3 +1,5 @@
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Calculator from './components/Calculator';
 import Home from './components/Home';
@@ -16,9 +18,11 @@ function App() {
           <p>Quotes</p>
         </div>
       </nav>
-      <Home />
-      <Quotes />
-      <Calculator />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Calculator />} />
+        <Route path="/" element={<Quotes />} />
+      </Routes>
     </div>
   );
 }
