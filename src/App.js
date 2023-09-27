@@ -1,6 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import './App.css';
+import { Routes, Route, Link } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Home from './components/Home';
 import Quotes from './components/logic/Quotes';
@@ -12,10 +11,10 @@ function App() {
         <div>
           <h1> Math Magicians </h1>
         </div>
-        <div className="">
-          <p>Home</p>
-          <p>Calculator</p>
-          <p>Quotes</p>
+        <div className="nav-styles">
+          <p><Link style={{ textDecoration: 'none' }} to="/">Home</Link></p>
+          <p><Link style={{ textDecoration: 'none' }} to="/calculator">Calculator</Link></p>
+          <p><Link style={{ textDecoration: 'none' }} to="/quotes">Quotes</Link></p>
         </div>
       </nav>
       <Routes>
