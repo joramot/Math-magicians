@@ -1,6 +1,7 @@
 const Home = () => (
   <div className="home">
     <h2>Welcome to our page</h2>
+    <br />
     <p>
       Lorem ipsum adduci admissum adversantur aeque agatur alia aliena alteram amet
       amicitias amotio an animos antipatrum artibus artifex asperner
@@ -11,7 +12,10 @@ const Home = () => (
       diuturnum dividendo doming duce ea efficere effici ennius eram erga eruditi erudito
       eximiae fabulae facultas fecerint feugiat fortitudinem fructuosam generis graeci grate
       habitasse haeret honestum hortatore hortensio hostis huc ignoratione illa impensa imperii
-      imperiis impetu incididunt individua industriae infinitis inhumanus inimicus iniurias
+      imperiis impetu incididunt individua industriae infinitis inhumanus.
+    </p>
+    <br />
+    <p>
       inprobis inprobitatem intellegam intellegat inutile invenerit irure ita iudicio iuste
       laboriosam legendos legimus leguntur liberae ligula magnos male mediocrium menandro
       mererer metuamus metuque miser miseram miserius mnesarchum modo motum motus multa nati
