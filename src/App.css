@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*
+.App {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+  gap: 25px;
+} */
+
+.calculator-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+.calculator-grid {
+  width: fit-content;
+}
+
+.screen {
+  background-color: rgb(146, 146, 146);
+  height: 2em;
+  width: 11.65em;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  font-size: 2em;
+  border: 1px solid rgb(206, 201, 201);
+  color: white;
+}
+
+.quotes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: larger;
+  margin: 20% 10%;
+  font-weight: 600;
+}
+
+.quotes span {
+  display: flex;
+  align-self: flex-end;
+  margin-right: 10%;
+}
+
+.screen::placeholder {
+  color: white;
+}
+
+.screen:focus {
+  outline: none;
+}
+
+.row div {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+button {
+  height: 4em;
+  width: 7em;
+  border: 1px solid rgb(206, 201, 201);
+}
+
+.buttons-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+#zero {
+  width: 14em;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.home {
+  margin: 10%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 8%;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  gap: 15px;
+  font-size: large;
+  text-decoration: none;
+}
+
+.nav-items p {
+  text-decoration: none;
+  color: aqua;
+}
